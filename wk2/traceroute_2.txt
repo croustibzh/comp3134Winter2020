@@ -1,0 +1,6 @@
+
+root@lamp-gbc-101137290:~# traceroute 167.99.186.3
+traceroute to 167.99.186.3 (167.99.186.3), 30 hops max, 60 byte packets
+ 1  lamp-gbc-101137290 (167.99.186.3)  0.049 ms  0.014 ms  0.011 ms
+root@lamp-gbc-101137290:~#
+

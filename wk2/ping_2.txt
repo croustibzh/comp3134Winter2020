@@ -1,0 +1,19 @@
+
+root@lamp-gbc-101137290:~# ping 167.99.186.3
+PING 167.99.186.3 (167.99.186.3) 56(84) bytes of data.
+64 bytes from 167.99.186.3: icmp_seq=1 ttl=64 time=0.051 ms
+64 bytes from 167.99.186.3: icmp_seq=2 ttl=64 time=0.066 ms
+64 bytes from 167.99.186.3: icmp_seq=3 ttl=64 time=0.067 ms
+64 bytes from 167.99.186.3: icmp_seq=4 ttl=64 time=0.074 ms
+64 bytes from 167.99.186.3: icmp_seq=5 ttl=64 time=0.084 ms
+64 bytes from 167.99.186.3: icmp_seq=6 ttl=64 time=0.083 ms
+64 bytes from 167.99.186.3: icmp_seq=7 ttl=64 time=0.076 ms
+64 bytes from 167.99.186.3: icmp_seq=8 ttl=64 time=0.087 ms
+64 bytes from 167.99.186.3: icmp_seq=9 ttl=64 time=0.068 ms
+64 bytes from 167.99.186.3: icmp_seq=10 ttl=64 time=0.102 ms
+64 bytes from 167.99.186.3: icmp_seq=11 ttl=64 time=0.077 ms
+^C
+--- 167.99.186.3 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10235ms
+rtt min/avg/max/mdev = 0.051/0.075/0.102/0.017 ms
+

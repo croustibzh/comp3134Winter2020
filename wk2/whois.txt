@@ -1,0 +1,222 @@
+     Name: samsung.com
+    Registry Domain ID: 1521529_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+    Nameservers:
+
+    DNS-GI1.SAMSUNG.COM
+
+    DNSSM.SAMSUNG.COM
+
+    DNSSM2.SAMSUNG.COM
+
+    DNSST.SAMSUNG.COM
+
+    DNSST2.SAMSUNG.COM
+
+Dates
+
+    Registry Expiration: 2025-11-28 05:00:00 UTC
+    Registrar Expiration: 2025-11-28 05:00:00 UTC
+    Created: 1994-11-29 05:00:00 UTC
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/samsung.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://www.yesnic.com/rdap/domain/SAMSUNG.COM
+    Last updated from Registrar RDAP DB: 2020-01-15 06:46:11 UTC
+
+
+###############################################
+
+     Name: spotify.com
+    Registry Domain ID: 422131614_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    serverDeleteProhibited
+
+    serverTransferProhibited
+
+    serverUpdateProhibited
+    Nameservers:
+
+    dns2.p07.nsone.net: 198.51.45.7
+
+    dns3.p07.nsone.net: 198.51.44.71
+
+    dns4.p07.nsone.net: 198.51.45.71
+
+    ns2.p23.dynect.net: 204.13.250.23
+
+    ns3.p23.dynect.net: 208.78.71.23, 2001:500:94:1:0:0:0:23
+
+    ns4.p23.dynect.net: 204.13.251.23
+
+Dates
+
+    Registry Expiration: 2021-04-23 09:07:50 UTC
+    Registrar Expiration: 2021-04-23 09:00:00 UTC
+    Created: 2006-04-23 09:07:50 UTC
+
+Contact Information
+Registrant:
+
+    Organization: Spotify AB 
+
+Technical:
+
+Administrative:
+
+REDACTED FOR PRIVACY: Some of the data in this object has been removed
+Registrar Information
+
+    Name: PortsGroup AB
+    URL: www.domaininfo.com 
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/spotify.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.ports.domains/domain/SPOTIFY.COM 
+
+####################################################
+
+     Name: ASUS.COM
+    Internationalized Domain Name: ASUS.COM
+    Registry Domain ID: 2790608_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+    Nameservers:
+
+    ns1.edgecastdns.net: 192.16.16.5
+
+    ns2.edgecastdns.net: 192.16.16.6
+
+Dates
+
+    Registry Expiration: 2021-10-24 04:00:00 UTC
+    Registrar Expiration: 2021-10-24 12:00:00 UTC
+    Created: 1995-10-25 04:00:00 UTC
+
+Contact Information
+Registrant:
+
+    Name: 徐上絡 ARIES HSU
+    Organization: 華碩電腦股份有限公司 ASUSTeK COMPUTER INC.
+    Email: DNS_ADMIN@ASUS.COM
+    Mailing Address: 台北市北投區立德路15號 No. 15, Li-Te Rd., Peitou, Taipei, Taiwan, 112, TW 
+
+Administrative:
+
+    Name: 徐上絡 ARIES HSU
+    Organization: 華碩電腦股份有限公司 ASUSTeK COMPUTER INC.
+    Email: DNS_ADMIN@ASUS.COM
+    Mailing Address: 台北市北投區立德路15號 No. 15, Li-Te Rd., Peitou, Taipei, Taiwan, 112, TW 
+
+Registrar Information
+
+    Name: Net-Chinese Co., Ltd.
+    IANA ID: 1336 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/asus.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.net-chinese.com/domain/ASUS.COM 
+
+
+
+
+#############################################
+
+
+     Name: 2048.COM
+    Registry Domain ID: 32609699_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+    Nameservers:
+
+    NS3.DNS.COM
+
+    NS4.DNS.COM
+
+Dates
+
+    Registry Expiration: 2021-08-09 10:41:53 UTC
+    Created: 2000-08-09 10:41:55 UTC
+
+Registrar Information
+
+    Name: eName Technology Co., Ltd.
+    IANA ID: 1331
+    Abuse Contact Email: abuse@ename.com
+    Abuse Contact Phone: tel:86.4000044400 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/2048.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://whois.ename.com/rdap/domain/2048.COM 
+
+##############################################
+
+
+     Name: UOFT.COM
+    Registry Domain ID: 4803222_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientTransferProhibited
+    Nameservers:
+
+    NS1.SEDOPARKING.COM
+
+    NS2.SEDOPARKING.COM
+
+Dates
+
+    Registry Expiration: 2020-11-11 05:00:00 UTC
+    Created: 1998-11-12 05:00:00 UTC
+
+Registrar Information
+
+    Name: GKG.Net, Inc.
+    IANA ID: 93
+    Abuse Contact Email: abuse@gkg.net
+    Abuse Contact Phone: tel:+1.8776951790 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/uoft.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC

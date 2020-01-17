@@ -1,0 +1,69 @@
+
+root@lamp-gbc-101137290:~# ping www.microsoft.com -w 30
+PING e13678.dspb.akamaiedge.net (72.247.170.32) 56(84) bytes of data.
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=1 ttl=60 time=1.29 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=2 ttl=60 time=0.556 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=3 ttl=60 time=0.519 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=4 ttl=60 time=0.451 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=5 ttl=60 time=0.421 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=6 ttl=60 time=0.463 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=7 ttl=60 time=0.413 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=8 ttl=60 time=0.419 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=9 ttl=60 time=0.523 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=10 ttl=60 time=0.536 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=11 ttl=60 time=0.436 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=12 ttl=60 time=0.470 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=13 ttl=60 time=0.517 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=14 ttl=60 time=0.503 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=15 ttl=60 time=0.448 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=16 ttl=60 time=0.534 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=17 ttl=60 time=0.434 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=18 ttl=60 time=0.529 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=19 ttl=60 time=0.406 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=20 ttl=60 time=0.557 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=21 ttl=60 time=0.535 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=22 ttl=60 time=0.497 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=23 ttl=60 time=0.456 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=24 ttl=60 time=0.453 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=25 ttl=60 time=0.546 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=26 ttl=60 time=0.490 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=27 ttl=60 time=0.481 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=28 ttl=60 time=0.452 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=29 ttl=60 time=0.431 ms
+64 bytes from a72-247-170-32.deploy.static.akamaitechnologies.com 
+(72.247.170.32): icmp_seq=30 ttl=60 time=0.453 ms
+
+--- e13678.dspb.akamaiedge.net ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 29652ms
+rtt min/avg/max/mdev = 0.406/0.507/1.291/0.153 ms
+root@lamp-gbc-101137290:~#
+
