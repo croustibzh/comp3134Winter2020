@@ -1,0 +1,22 @@
+
+Morgan@DESKTOP-2NQ2TR2 MINGW64 ~
+$ ssh root@167.99.186.3 -p 2222
+root@167.99.186.3's password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-74-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ 
+ 
+ =====================================================
+ 
+ 
+ 
+root@lamp-gbc-101137290:~# service sshd restart
+root@lamp-gbc-101137290:~# nano /etc/ssh/sshd_config
+root@lamp-gbc-101137290:~# ufw allow 2222
+Rule added
+Rule added (v6)
+root@lamp-gbc-101137290:~# service sshd restart
