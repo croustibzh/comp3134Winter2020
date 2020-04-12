@@ -1,0 +1,8 @@
+root@lamp-gbc-101137290:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+17:50:03.506201 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 1531413114:1531413178, ack 160592458, win 1452, length 64
+17:50:03.506381 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 64:192, ack 1, win 1452, length 128
+17:50:03.506506 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 192:256, ack 1, win 1452, length 64
+17:50:03.549882 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 64, win 511, length 0
+17:50:03.549931 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 256, win 511, length 0
+root@lamp-gbc-101137290:~#

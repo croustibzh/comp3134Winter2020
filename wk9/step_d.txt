@@ -1,0 +1,4 @@
+1) The folder or file hello doesnt exist on the path provided.
+
+2) This error message provides the attacker with the name of the of the php file running on the server and 
+also the structure of the webroot folder.

@@ -1,0 +1,2 @@
+The page is blank, but in the console, the script is displaying in the header, the attacker could try and call that 'directory-traversal' file
+from the browser and gain access to the server folders.

@@ -1,0 +1,69 @@
+root@lamp-gbc-101137290:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:52:31.110364 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 1533023370:1533023498, ack 160596202, win 1452, length 128
+17:52:31.110459 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 128:192, ack 1, win 1452, length 64
+17:52:31.110549 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 192:320, ack 1, win 1452, length 128
+17:52:31.110625 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 320:384, ack 1, win 1452, length 64
+17:52:31.112845 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 384:624, ack 1, win 1452, length 240
+17:52:31.112966 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 624:688, ack 1, win 1452, length 64
+17:52:31.113099 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 688:896, ack 1, win 1452, length 208
+17:52:31.113176 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 896:960, ack 1, win 1452, length 64
+17:52:31.113282 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 960:1184, ack 1, win 1452, length 224
+17:52:31.145548 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 384, win 508, length 0
+17:52:31.145608 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 1184:2928, ack 1, win 1452, length 1744
+17:52:31.145637 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 1184, win 513, length 0
+17:52:31.145866 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 2928:3136, ack 1, win 1452, length 208
+17:52:31.145972 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3136:3200, ack 1, win 1452, length 64
+17:52:31.146083 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3200:3424, ack 1, win 1452, length 224
+17:52:31.146171 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3424:3488, ack 1, win 1452, length 64
+17:52:31.146268 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3488:3696, ack 1, win 1452, length 208
+17:52:31.146338 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3696:3760, ack 1, win 1452, length 64
+17:52:31.146430 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3760:3984, ack 1, win 1452, length 224
+17:52:31.146589 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4048:4272, ack 1, win 1452, length 224
+17:52:31.146748 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4336:4560, ack 1, win 1452, length 224
+17:52:31.146940 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4624:4848, ack 1, win 1452, length 224
+17:52:31.147109 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4912:5136, ack 1, win 1452, length 224
+17:52:31.147277 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 5200:5424, ack 1, win 1452, length 224
+17:52:31.165659 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 2928, win 513, length 0
+17:52:31.165717 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 5488:7216, ack 1, win 1452, length 1728
+17:52:31.165746 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 4624, win 513, length 0
+17:52:31.165759 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 5424, win 510, length 0
+17:52:31.165767 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 5488, win 509, length 0
+17:52:31.166028 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 7216:7424, ack 1, win 1452, length 208
+17:52:31.166114 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 7424:7488, ack 1, win 1452, length 64
+17:52:31.166221 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 7488:7712, ack 1, win 1452, length 224
+17:52:31.166386 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 7776:7984, ack 1, win 1452, length 208
+17:52:31.166564 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 8048:8256, ack 1, win 1452, length 208
+17:52:31.166747 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 8320:8528, ack 1, win 1452, length 208
+17:52:31.166909 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 8592:8816, ack 1, win 1452, length 224
+17:52:31.167068 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 8880:9104, ack 1, win 1452, length 224
+17:52:31.167225 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 9168:9392, ack 1, win 1452, length 224
+17:52:31.167383 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 9456:9680, ack 1, win 1452, length 224
+17:52:31.167539 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 9744:9968, ack 1, win 1452, length 224
+17:52:31.167697 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 10032:10256, ack 1, win 1452, length 224
+17:52:31.167858 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 10320:10544, ack 1, win 1452, length 224
+17:52:31.168018 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 10608:10832, ack 1, win 1452, length 224
+17:52:31.168210 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 10896:11120, ack 1, win 1452, length 224
+17:52:31.168352 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 11120:11664, ack 1, win 1452, length 544
+17:52:31.168522 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 11664:12384, ack 1, win 1452, length 720
+17:52:31.168669 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 12384:12608, ack 1, win 1452, length 224
+17:52:31.168779 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 12608:12832, ack 1, win 1452, length 224
+17:52:31.168882 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 12832:13056, ack 1, win 1452, length 224
+17:52:31.168991 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 13056:13280, ack 1, win 1452, length 224
+17:52:31.169095 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 13280:13504, ack 1, win 1452, length 224
+17:52:31.169221 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 13504:13728, ack 1, win 1452, length 224
+17:52:31.169325 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 13728:13952, ack 1, win 1452, length 224
+17:52:31.169428 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 13952:14176, ack 1, win 1452, length 224
+17:52:31.169533 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 14176:14400, ack 1, win 1452, length 224
+17:52:31.207266 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 8816, win 513, length 0
+17:52:31.207326 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 14400:14624, ack 1, win 1452, length 224
+17:52:31.207353 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 10032, win 508, length 0
+17:52:31.207364 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 10832, win 513, length 0
+17:52:31.207371 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 12832, win 513, length 0
+17:52:31.207378 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 13728, win 509, length 0
+17:52:31.207384 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 14400, win 513, length 0
+^C
+62 packets captured
+81 packets received by filter
+19 packets dropped by kernel

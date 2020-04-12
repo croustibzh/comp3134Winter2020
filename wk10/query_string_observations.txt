@@ -1,0 +1,12 @@
+#1 
+The website submit the form with the typed word, and returns the corresponding page
+
+#2
+The website reloads with the parameter in the URL and provides the same result as #1
+
+#3 <script>alert(%27hello%27)</script>
+The website returns with a few articles containing the word "Hello", no specific page. (The input got modified in the url
+=> <script>alert('hello')<%2Fscript>&s=ts)
+
+#4
+Same results as #3 but the url not as before the request was sent, no modifications

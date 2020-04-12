@@ -1,0 +1,3 @@
+the csfr.html will redirect you to the csfr_action.php but wont log you in since the session variables dont match.
+
+The csfr_form.php will pass along the correct session token and will log you in properly

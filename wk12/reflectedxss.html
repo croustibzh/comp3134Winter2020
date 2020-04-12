@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reflectedxss</title>
+</head>
+
+<body>
+<h1>REFLECTED XSS</h1>
+    <form onsubmit=change() name="csfr_form">
+        <input type="text" name="txtfield1"  placeholder="Some text" >
+</form>
+<div id="result">
+
+</div>
+
+<script>
+document.forms['csfr_form'].onsubmit(event){
+event.preventDefault();
+}
+
+</script>
+ function change() {
+        event.preventDefault();
+        const text = document.getElementById('txtfield1').value;
+        document.getElementById("result").innerHTML = text;
+    }
+
+</body>
+
+</html>	

@@ -1,0 +1,31 @@
+root@lamp-gbc-101137290:~# tcpdump -i eth0 dst 159.203.2.107
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:03:42.176484 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [S], seq 1926494200, win 29200, options [mss 1460,sackOK,TS val 157944111 ecr 0,nop,wscale 6], length 0
+18:03:42.229006 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 1538078762, win 510, length 0
+18:03:42.311225 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [.], ack 1956852383, win 457, options [nop,nop,TS val 157944145 ecr 1830285285], length 0
+18:03:42.389506 IP 67.207.67.2.domain > lamp-gbc-101137290.55809: 3568 1/0/1 PTR unspecified.mtw.ru. (87)
+18:03:42.415533 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 625, win 508, length 0
+18:03:42.440750 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 993, win 513, length 0
+18:03:42.461793 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [.], ack 42, win 457, options [nop,nop,TS val 157944182 ecr 1830285432], length 0
+18:03:42.461835 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [P.], seq 0:21, ack 42, win 457, options [nop,nop,TS val 157944182 ecr 1830285432], length 21
+18:03:42.481281 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 1585, win 510, length 0
+18:03:42.537175 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 1793, win 510, length 0
+18:03:42.598727 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [P.], seq 21:461, ack 1122, win 502, options [nop,nop,TS val 157944217 ecr 1830285572], length 440
+18:03:42.599998 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 2001, win 509, length 0
+18:03:42.647009 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 2449, win 507, length 0
+18:03:42.735807 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 2657, win 513, length 0
+18:03:42.776280 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [P.], seq 461:509, ack 1122, win 502, options [nop,nop,TS val 157944261 ecr 1830285749], length 48
+18:03:42.785533 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 2929, win 512, length 0
+18:03:42.785570 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 3217, win 511, length 0
+18:03:42.890565 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 3569, win 509, length 0
+18:03:42.934506 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [P.], seq 509:525, ack 1402, win 536, options [nop,nop,TS val 157944300 ecr 1830285898], length 16
+18:03:42.993971 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 3777, win 508, length 0
+18:03:43.000398 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 4017, win 507, length 0
+18:03:43.023965 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 4433, win 513, length 0
+18:03:43.105750 IP CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808 > lamp-gbc-101137290.ssh: Flags [.], ack 4705, win 512, length 0
+18:03:43.110947 IP unspecified.mtw.ru.56658 > lamp-gbc-101137290.ssh: Flags [P.], seq 525:577, ack 1402, win 536, options [nop,nop,TS val 157944345 ecr 1830286085], length 52
+^C
+24 packets captured
+26 packets received by filter
+0 packets dropped by kernel

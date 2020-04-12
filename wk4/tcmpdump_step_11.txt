@@ -1,0 +1,31 @@
+root@lamp-gbc-101137290:~# tcpdump -i eth0 src 159.203.2.107
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:01:33.125974 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 1538050954:1538051082, ack 160607034, win 1452, length 128
+18:01:33.126071 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 128:192, ack 1, win 1452, length 64
+18:01:33.126228 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 192:320, ack 1, win 1452, length 128
+18:01:33.126368 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 320:384, ack 1, win 1452, length 64
+18:01:33.128195 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 384:624, ack 1, win 1452, length 240
+18:01:33.128282 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 624:688, ack 1, win 1452, length 64
+18:01:33.128387 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 688:896, ack 1, win 1452, length 208
+18:01:33.128459 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 896:960, ack 1, win 1452, length 64
+18:01:33.128554 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 960:1184, ack 1, win 1452, length 224
+18:01:33.172713 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 1184:2928, ack 1, win 1452, length 1744
+18:01:33.173087 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 2928:3152, ack 1, win 1452, length 224
+18:01:33.173230 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3152:3216, ack 1, win 1452, length 64
+18:01:33.173418 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3216:3440, ack 1, win 1452, length 224
+18:01:33.173550 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3440:3504, ack 1, win 1452, length 64
+18:01:33.173711 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3504:3728, ack 1, win 1452, length 224
+18:01:33.173815 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3728:3792, ack 1, win 1452, length 64
+18:01:33.173978 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 3792:4016, ack 1, win 1452, length 224
+18:01:33.174098 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4016:4080, ack 1, win 1452, length 64
+18:01:33.174264 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4080:4304, ack 1, win 1452, length 224
+18:01:33.174380 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4304:4368, ack 1, win 1452, length 64
+18:01:33.174549 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4368:4592, ack 1, win 1452, length 224
+18:01:33.174782 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4656:4880, ack 1, win 1452, length 224
+18:01:33.174968 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 4944:5168, ack 1, win 1452, length 224
+18:01:33.175294 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61808: Flags [P.], seq 5232:5456, ack 1, win 1452, length 224
+^C
+24 packets captured
+28 packets received by filter
+4 packets dropped by kernel

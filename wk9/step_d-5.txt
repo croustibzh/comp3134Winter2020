@@ -1,0 +1,3 @@
+1) The browser display our webroot. I guess "%2e%2e%2f" == "../"
+
+2)Our webroot is exposed, all our page names are visible(website structure?), an attacker could modify /corrupt our website files 

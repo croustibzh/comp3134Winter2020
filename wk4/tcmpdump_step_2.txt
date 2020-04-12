@@ -1,0 +1,12 @@
+root@lamp-gbc-101137290:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:38:50.634681 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61518: Flags [P.], seq 764200940:764201068, ack 1545921466, win 1292, length 128
+17:38:50.634773 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61518: Flags [P.], seq 128:192, ack 1, win 1292, length 64
+17:38:50.634870 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61518: Flags [P.], seq 192:320, ack 1, win 1292, length 128
+17:38:50.634939 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61518: Flags [P.], seq 320:384, ack 1, win 1292, length 64
+17:38:50.636771 IP lamp-gbc-101137290.ssh > CPEf81d0f837253-CMf81d0f837250.cpe.net.cable.rogers.com.61518: Flags [P.], seq 384:624, ack 1, win 1292, length 240
+5 packets captured
+9 packets received by filter
+0 packets dropped by kernel
+root@lamp-gbc-101137290:~#

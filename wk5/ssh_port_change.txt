@@ -1,14 +1,31 @@
-
-Morgan@DESKTOP-2NQ2TR2 MINGW64 ~
-$ ssh root@167.99.186.3 -p 2222
-root@167.99.186.3's password:
-Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-74-generic x86_64)
+$ ssh root@159.203.2.107 -p 2222
+root@159.203.2.107's password:
+Permission denied, please try again.
+root@159.203.2.107's password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-96-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/advantage
 
- 
+  System information as of Sat Apr 11 20:25:31 UTC 2020
+
+  System load:  0.0               Processes:           87
+  Usage of /:   9.1% of 24.06GB   Users logged in:     1
+  Memory usage: 12%               IP address for eth0: 159.203.2.107
+  Swap usage:   0%
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+55 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Sat Apr 11 19:48:15 2020 from 99.230.171.156
+root@lamp-gbc-101137290:~#
+
  
  =====================================================
  
@@ -20,3 +37,13 @@ root@lamp-gbc-101137290:~# ufw allow 2222
 Rule added
 Rule added (v6)
 root@lamp-gbc-101137290:~# service sshd restart
+root@lamp-gbc-101137290:~# service ufw  restart
+root@lamp-gbc-101137290:~# ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere
+2222                       ALLOW       Anywhere
+22 (v6)                    ALLOW       Anywhere (v6)
+2222 (v6)                  ALLOW       Anywhere (v6)

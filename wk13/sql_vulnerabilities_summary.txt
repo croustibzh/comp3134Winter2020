@@ -1,0 +1,12 @@
+#1 input Ben
+
+Nothing happens (on the display) because Ben doesn't have an active value of 1 in your database so it isnt return by our query.
+
+#2 input Ben'-- 
+
+Ben is returned. "-- " comments our sql code and bypass the validation for field active and return Ben anyway.
+
+
+#3 input Ben' or 1=1
+
+No results show since Ben' or 1=1 makes our query return with an open single quote (error).

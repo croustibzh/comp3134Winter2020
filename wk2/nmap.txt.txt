@@ -1,0 +1,86 @@
+#Install  & Version (Already installed) ================================================================
+
+root@lamp-gbc-101137290:~# apt-get install nmap
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+nmap is already the newest version (7.60-1ubuntu5).
+The following package was automatically installed and is no longer required:
+  grub-pc-bin
+Use 'apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 55 not upgraded.
+root@lamp-gbc-101137290:~# nmap --version
+
+Nmap version 7.60 ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.3.3 openssl-1.1.0g nmap-libssh2-1.8.0 libz-1.2.8 libpcre-8.39 libpcap-1.8.1 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+
+
+
+#nmap scan 1000 ports ================================================================================
+
+root@lamp-gbc-101137290:~# nmap gbc.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-11 14:43 UTC
+Nmap scan report for gbc.ca (144.217.80.241)
+Host is up (0.0074s latency).
+rDNS record for 144.217.80.241: ns2.cadns.ca
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+
+Nmap done: 1 IP address (1 host up) scanned in 14.75 seconds
+root@lamp-gbc-101137290:~# nmap digitalocean.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-11 14:44 UTC
+Nmap scan report for digitalocean.com (104.16.181.15)
+Host is up (0.00070s latency).
+Other addresses for digitalocean.com (not scanned): 104.16.182.15
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+
+#nmap scan 1 port  (443) ======================================================================
+
+root@lamp-gbc-101137290:~# nmap -p 443 udemy.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-11 14:48 UTC
+Nmap scan report for udemy.com (1.1.1.1)
+Host is up (0.00099s latency).
+rDNS record for 1.1.1.1: one.one.one.one
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+
+
+
+#nmap scan port  range (79 - 600 ) =============================================================
+
+root@lamp-gbc-101137290:~# nmap -p 79-600 linkedin.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-11 14:53 UTC
+Nmap scan report for linkedin.com (108.174.10.10)
+Host is up (0.011s latency).
+Other addresses for linkedin.com (not scanned): 2620:109:c002::6cae:a0a
+rDNS record for 108.174.10.10: 108-174-10-10.fwd.linkedin.com
+Not shown: 520 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.57 seconds
+
+
+
+
+

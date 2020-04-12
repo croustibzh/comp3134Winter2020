@@ -1,0 +1,1 @@
+With the sanitized input, scenario number 2  ( Ben'-- ) is prevented.

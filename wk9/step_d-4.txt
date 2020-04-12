@@ -1,0 +1,4 @@
+1) the query returned an array of every elements one level below root. 
+
+2) The attacker can access elements on this level (including our webroot) but could also cd one level higher and access our root.
+ The structure of our server is now exposed
